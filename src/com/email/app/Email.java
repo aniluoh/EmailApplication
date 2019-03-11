@@ -62,8 +62,8 @@ public class Email {
 	}
 	
 // Set mail box capacity
-	public void setMailBoxCapcity(int capacity) {
-		this.emailCapcity = capacity;
+	public void setMailBoxCapcity(int capcity) {
+		this.emailCapcity = capcity;
 	}
 
 //	set alternate Email
@@ -77,8 +77,8 @@ public class Email {
 	}
 	
 //	Mail box capacity
-	public int getMailCapacity(int capacity) {
-		return capacity;
+	public int getMailCapacity() {
+		return emailCapcity;
 	}
 	
 //	Alternate email
